@@ -100,10 +100,10 @@ ul li:hover ul.dropdown {
     background-color: #04AA6D;
     border: none;
     color: white;
-    padding: 10px 24px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 13px;
+    font-size: 20px;
     border-radius: 2px;
 }
