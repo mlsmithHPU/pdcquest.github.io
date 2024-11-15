@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown Menu</title>
+    <title>PDC Quest</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
                 <li><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
                 <li><a href="consistency.html" onclick="window.open('consistency.html', '_self');">3 - Consistency in State/Memory Manipulation</a></li>
                 <li><a href="messagepassing.html" onclick="window.open('messagepassing.html', '_self');">4 - Message Passing</a></li>
-                <li><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Message Passing</a></li>
+                <li><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Shared Memory Models</a></li>
                 <li><a href="scalability.html" onclick="window.open('scalability.html', '_self');">6 - Scalability</a></li>
                 <li><a href="scheduling.html" onclick="window.open('scheduling.html', '_self');">7 - Scheduling and Load Balancing</a></li>
                 <li><a href="speedup.html" onclick="window.open('speedup.html', '_self');">8 - Speedup/Amdahl's Law</a></li>
@@ -30,11 +30,12 @@
     
     <br>
 
-    <h2>What is consistency in distributed systems?</h2>
+    <h2>What is the difference between strong and eventual consistency?</h2>
     <br>
     <p style="font-size: 20px"> Answer:</p>
     <p style="font-size: 20px">
-        Consistency in distributed systems refers to the requirement that all nodes in the system see the same data at the same time. It ensures that when data is written or updated on one node, the changes are reflected across all other nodes to maintain a coherent state.
+        Strong consistency ensures that all nodes in the system see the same data immediately after a write operation. Eventual consistency, on the other hand, guarantees that, given enough time, all nodes will converge to the same state, but there may be a delay before the data is consistent across all nodes.
+    </p>
     <br>
     <p>Learn more:</p>
 </body>

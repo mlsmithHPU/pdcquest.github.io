@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
 }
-h1 {text-align: center;}
-h2 {text-align: center;}
-p {text-align: center;}
+h1, h2, h3 {text-align: center;}
+p {text-align: center;
+    margin: 20px;
+}
 div {text-align: center;}
 body{text-align: center;}
 a {
@@ -84,7 +85,7 @@ ul li:hover ul.dropdown {
 }
 
 .button {
-    background-color: #04AA6D;
+    background-color: gray;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -99,10 +100,10 @@ ul li:hover ul.dropdown {
     background-color: #04AA6D;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     border-radius: 2px;
 }
