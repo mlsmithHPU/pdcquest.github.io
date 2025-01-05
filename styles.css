@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 @font-face { 
@@ -20,8 +20,6 @@ h1, h2, h3 {
 p {
     text-align: center;
     font-family: Roboto;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
 }
 
 div {
