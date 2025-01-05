@@ -26,18 +26,17 @@
             </ul>
         </li>
         </ul>
-    </nav>
-    <h1 style="font-size: 40px">Concurrency Questions</h1>
-    
+    </nav>    
     <br>
 
-    <h2>What is a critical section, and how does mutual exclusion relate to it?</h2>
+    <h2>What is the "test-and-set" instruction, and how does it provide mutual exclusion?</h2>
+    </h2>
     <br>
     <p style="font-size: 20px"> Answer:</p>
     <p style="font-size: 20px">
-        A critical section is a portion of a program where shared resources are accessed or modified. Mutual exclusion ensures that only one thread or process can execute the critical section at a time, preventing concurrent access that could lead to data corruption.
+        The "test-and-set" instruction is an atomic operation used in hardware to implement mutual exclusion. It tests the value of a memory location and sets it if it was previously unset. This prevents other processes from entering the critical section while it is locked.
     </p>
-        <br>
+    <br>
     <p>Learn more:</p>
 </body>
 </html>
