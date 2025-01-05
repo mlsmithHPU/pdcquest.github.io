@@ -20,11 +20,18 @@ h1, h2, h3 {
 p {
     text-align: center;
     font-family: Roboto;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
-div {text-align: center;}
-body{text-align: center;}
+
+div {
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
 a {
     border-radius: 2px;
 }
