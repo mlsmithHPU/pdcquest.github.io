@@ -18,6 +18,7 @@ h1, h2, h3 {
 }
 
 p {
+    font-size: 20px;
     text-align: center;
     font-family: Roboto;
     margin-left: 50px;
