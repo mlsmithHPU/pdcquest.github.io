@@ -25,16 +25,22 @@
             </ul>
         </li>
         </ul>
-    </nav> 
+    </nav>
     <br>
-
-    <h2>How do consistency levels affect the performance of distributed databases?</h2>
+    <p style="text-align: center;">Consistency in State/Memory Manipulation – CC</p>
+    <h2>Question 9. What is causal consistency, and how does it differ from strong consistency?</h2>
     <br>
-    <p style="font-size: 20px"> Answer:</p>
-    <p style="font-size: 20px">
-        Stronger consistency levels, such as strong consistency, ensure that data is immediately synchronized across all nodes, but this can introduce significant latency and reduce system performance, especially in geographically distributed systems. Weaker consistency levels, like eventual consistency, reduce synchronization overhead, improving performance at the cost of delayed consistency.
+    <h3>Answer:</h3>
+    <p>
+        Causal consistency ensures that operations that are causally related are seen by all nodes in the same order, but operations that are not causally related may be seen in different orders. Strong consistency, by contrast, requires all operations to be seen in the same order across all nodes, regardless of causality.
     </p>
     <br>
-    <p>Learn more:</p>
+    <h3>Resources:</h3>
+    <p>Baeldung Article: Eventual Consistency vs. Strong Eventual Consistency vs. Strong Consistency</p>
+    <p><a target="_blank" href= " https://www.baeldung.com/cs/eventual-consistency-vs-strong-eventual-consistency-vs-strong-consistency">View here</a></p>
+    <br>   
+    <br> 
+    <p>Parallel Computing Consistency Explained – Information Document </p>
+    <p><a target="_blank" href= "/resources/Parallel Computing Consistency Explained_.pdf">View Here</a></p>
 </body>
 </html>

@@ -25,16 +25,22 @@
             </ul>
         </li>
         </ul>
-    </nav> 
+    </nav>
     <br>
-
-    <h2>What is the importance of state consistency in distributed systems?</h2>
+    <p style="text-align: center;">Consistency in State/Memory Manipulation – CC</p>
+    <h2>Question 10. How do consistency levels affect the performance of distributed databases?</h2>
     <br>
-    <p style="font-size: 20px"> Answer:</p>
-    <p style="font-size: 20px">
-        State consistency is critical in distributed systems because it ensures that all nodes have a consistent view of the system’s state, allowing reliable operation across different nodes. Consistent state enables accurate decision-making, transaction handling, and ensures that system behavior remains predictable.
+    <h3>Answer:</h3>
+    <p>
+        Stronger consistency levels, such as strong consistency, ensure that data is immediately synchronized across all nodes, but this can introduce significant latency and reduce system performance, especially in geographically distributed systems. Weaker consistency levels, like eventual consistency, reduce synchronization overhead, improving performance at the cost of delayed consistency.
     </p>
     <br>
-    <p>Learn more:</p>
+    <h3>Resources:</h3>
+    <p>TiDB Article: Ensuring Data Consistency in Distributed Databases</p>
+    <p><a target="_blank" href= "https://www.pingcap.com/article/ensuring-data-consistency-in-distributed-databases/#:~:text=Without%20maintaining%20consistency%2C%20data%20anomalies,reliable%20processing%20in%20database%20systems.">View here</a></p>
+    <br>   
+    <br> 
+    <p>Parallel Computing Consistency Explained – Information Document</p>
+    <p><a target="_blank" href= "/resources/Parallel Computing Consistency Explained_.pdf">View Here</a></p>
 </body>
 </html>
