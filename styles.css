@@ -89,10 +89,11 @@ ul li:hover ul.dropdown {
 }
 
 table {
+    margin: 0 auto; /* centers the table horizontally*/
       border-collapse: collapse;
       width: 100%;
       max-width: 700px;
-      margin: 20px 0;
+      /*margin: 20px 0;*/
       background-color: #fff;
     }
     th, td {
